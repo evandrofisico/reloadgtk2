@@ -67,7 +67,6 @@ static void update_cursor_demo()
             g_object_unref(pix);
         }
     }
-    gtk_icon_view_set_model(GTK_ICON_VIEW(app.cursor_demo_view), GTK_TREE_MODEL(store));
     g_object_unref(store);
 
     /* gtk+ programs should reload named cursors correctly.
